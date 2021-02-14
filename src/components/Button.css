@@ -1,0 +1,11 @@
+.button--normal:hover {
+  @apply bg-gray-50 text-indigo-500;
+}
+
+.button--primary {
+  @apply bg-gradient-to-br from-blue-400 to-indigo-500 text-white shadow-md;
+}
+
+.button--primary:hover {
+  @apply text-white opacity-90;
+}
